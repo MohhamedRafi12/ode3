@@ -1,0 +1,2 @@
+/opt/homebrew/Caskroom/miniconda/base/envs/physics/bin/arm64-apple-darwin20.0.0-ar qc libode_static.a CMakeFiles/ode_static.dir/RKn.cpp.o
+/opt/homebrew/Caskroom/miniconda/base/envs/physics/bin/llvm-ranlib libode_static.a

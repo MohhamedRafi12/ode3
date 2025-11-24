@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/mohhamedrafi/Desktop/ode3/build/cmake_install.cmake",
+		"/Users/mohhamedrafi/Desktop/ode3/build/odelib/cmake_install.cmake",
+		"/Users/mohhamedrafi/Desktop/ode3/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
