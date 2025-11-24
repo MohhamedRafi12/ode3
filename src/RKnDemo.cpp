@@ -23,6 +23,7 @@
 #include "TStyle.h"
 #include "TGClient.h"
 #include "TF1.h"
+#include <unistd.h> 
 #include "TCanvas.h"
 #include <iostream>
 #include <cstdio>

@@ -13,7 +13,7 @@ GSLFLAGS   = -lgsl -lgslcblas
 GXX	   = g++ $(CXXFLAGS)
 
 
-EXES=baseball1 baseball2 RKnDemo RKnStep RKnTest projGSL
+EXES=baseball1 baseball2 RKnDemo RKnStep RKnTest projGSL vterm
 
 
 all: $(EXES)
@@ -31,6 +31,9 @@ baseball1: baseball1.cpp $(ODELIB)/RKn.hpp
 	$(GXX) $(CXXFLAGS) -o$@ $@.cpp $(LDFLAGS) 
 
 baseball2: baseball2.cpp $(ODELIB)/RKn.hpp 
+	$(GXX) $(CXXFLAGS) -o$@ $@.cpp $(LDFLAGS)
+
+vterm: vterm.cpp $(ODELIB)/RKn.hpp 
 	$(GXX) $(CXXFLAGS) -o$@ $@.cpp $(LDFLAGS)
 
 projGSL: projGSL.cpp

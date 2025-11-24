@@ -19,6 +19,8 @@
 #include "TGClient.h"
 #include "TF1.h"
 #include "TCanvas.h"
+
+#include <unistd.h> 
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>

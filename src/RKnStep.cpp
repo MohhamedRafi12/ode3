@@ -20,6 +20,7 @@
 
 
 #include "RKn.hpp"
+#include <unistd.h> 
 #include <cstdio>
 #include <iostream>
 

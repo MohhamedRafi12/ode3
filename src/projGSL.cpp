@@ -11,6 +11,7 @@
 #include "TGraph.h"
 #include "TCanvas.h"
 #include "TGClient.h"
+#include <unistd.h> 
 #include <gsl/gsl_errno.h>
 #include <gsl/gsl_matrix.h>
 #include <gsl/gsl_odeiv2.h>
